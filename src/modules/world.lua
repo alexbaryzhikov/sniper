@@ -198,7 +198,7 @@ function M.keypressed( key, scancode, isrepeat )
 		gadgets.topView.offs = 0
 	end
 	if key == "delete" then ClearBullets() end
-	if key == "`" then M.isDrawOverlays = not M.isDrawOverlays end
+	if key == "z" then M.isDrawOverlays = not M.isDrawOverlays end
 	if key == "tab" then gadgets.isDrawBulletStats = not gadgets.isDrawBulletStats end
 	if key == "r" then camera.Reset() end
 	if key == "t" then
